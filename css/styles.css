@@ -33,3 +33,17 @@ p {
     padding: 10px;
     margin-top: 40px;
 }
+a:link, a:visited {
+    background-color: white;
+    color: hotpink;
+    border-radius: 2px solid hotpink;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: hotpink;
+    color: white;
+  }
